@@ -1,0 +1,55 @@
+name: coffea_dask
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+
+  # HEP
+  - coffea=2024.11.0=pyhff2d567_0
+  - awkward
+  - uproot
+  - hist
+  - mplhep
+  - uncertainties
+  - lmfit
+  - correctionlib==2.6.4
+  - hepconvert
+
+  # ROOT
+  - root==6.32.02
+  - root_base==6.32.02
+  - boost
+  - eigen
+  - gsl
+  - pcre
+  - tbb
+  - vdt
+
+  # ML
+  - xgboost
+
+  # Tools
+  - dask=2024.9.1=pyhd8ed1ab_0
+  - dask-awkward=2024.9.0=pyhd8ed1ab_0
+  - dask-gateway=2024.1.0=pyh8af1aa0_0
+  - prometheus_client
+  - xrootd
+  - ipywidgets
+  - ipykernel
+  - omegaconf
+  - seaborn
+
+  - libnvjitlink-dev
+
+  - pip:
+    - rucio-clients==33.3.0
+    - fsspec-xrootd
+    - torch
+    - cmsstyle
+    - scikit-hep-testdata
+    - graphviz
+
+variables:
+  LD_LIBRARY_PATH: /depot/cms/kernels/coffea_dask/lib/python3.11/site-packages/nvidia/nvjitlink/lib/:/usr/local/cuda-12.2/lib64:/depot/cms/purdue-af/combine/HiggsAnalysis/CombinedLimit/build/lib:/depot/cms/purdue-af/roofit-batchcompute/build/
+  PYTHONPATH: /depot/cms/kernels/coffea_dask/bin
