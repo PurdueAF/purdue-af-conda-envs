@@ -1,4 +1,4 @@
-name: coffea_dask
+name: coffea_latest
 channels:
   - conda-forge
 dependencies:
@@ -39,6 +39,7 @@ dependencies:
   - ipykernel
   - omegaconf
   - seaborn
+  - scipy
 
   - libnvjitlink-dev
 
@@ -51,5 +52,5 @@ dependencies:
     - graphviz
 
 variables:
-  LD_LIBRARY_PATH: /depot/cms/kernels/coffea_dask/lib/python3.11/site-packages/nvidia/nvjitlink/lib/:/usr/local/cuda-12.2/lib64:/depot/cms/purdue-af/combine/HiggsAnalysis/CombinedLimit/build/lib:/depot/cms/purdue-af/roofit-batchcompute/build/
-  PYTHONPATH: /depot/cms/kernels/coffea_dask/bin
+  LD_LIBRARY_PATH: /depot/cms/kernels/coffea_latest/lib/python3.11/site-packages/nvidia/nvjitlink/lib/:/usr/local/cuda-12.2/lib64:/depot/cms/purdue-af/combine/HiggsAnalysis/CombinedLimit/build/lib:/depot/cms/purdue-af/roofit-batchcompute/build/
+  PYTHONPATH: /depot/cms/kernels/coffea_latest/bin
