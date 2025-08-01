@@ -39,6 +39,7 @@ dependencies:
   - ipykernel
   - omegaconf
   - seaborn
+  - scipy
 
   - libnvjitlink-dev
 
