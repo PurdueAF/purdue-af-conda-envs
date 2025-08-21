@@ -24,19 +24,9 @@ Two main environments are maintained by Purdue AF admins. These environments are
 
 ### 1. `python3` Environment
 - **Purpose**: Default, stable environment meant to serve most Purdue AF use cases. Start with this environment and feel free to open a pull request to add any missing packages.
-- **Key Features**:
-  - Python 3.10.10
-  - TensorFlow 2.15.1 with CUDA support
-  - PyTorch 2.0.1 with geometric extensions
-  - Coffea 0.7.21
-  - Extensive plotting and visualization tools
 
 ### 2. `coffea_latest` Environment
 - **Purpose**: Stay in tune with latest developments in the HEP software stack, primarily [Coffea](https://coffea-hep.readthedocs.io/en/latest/)
-- **Key Features**:
-  - Regularly updated Coffea releases
-  - Dependencies such as Dask, Uproot, Awkward are generally more recent than in `python3` environment
-
 
 ## Adding your own environment
 
