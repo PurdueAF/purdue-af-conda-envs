@@ -22,10 +22,10 @@ Additionally, a directory can contain `pip-uninstall.txt` with a list of package
 
 Two main environments are maintained by Purdue AF admins. These environments are also by default available in Jupyter notebooks as kernels.
 
-- **`python3` Environment**:  
+- **`python3`**:  
   Default, stable environment meant to serve most Purdue AF use cases. Start with this environment and feel free to open a pull request to add any missing packages.
 
-- **`coffea_latest` Environment**:  
+- **`coffea_latest`**:  
   The purpose of this environment is to stay in tune with latest developments in the HEP software stack, primarily [Coffea](https://coffea-hep.readthedocs.io/en/latest/)
 
 ## Adding your own environment
