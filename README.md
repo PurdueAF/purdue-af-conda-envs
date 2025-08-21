@@ -1,6 +1,6 @@
-# Purdue AF Conda environments / Jupyter kernels
+# Purdue AF Conda environments
 
-This repository contains recipes used to build Conda environments and Jupyter kernels at Purdue Analysis Facility.
+This repository contains recipes used to build Conda environments at Purdue Analysis Facility.
 
 There is a job that runs every few hours and builds a Conda environment from each of these recipes at `/work/kernels/` and at `/depot/cms/kernels`.
 
