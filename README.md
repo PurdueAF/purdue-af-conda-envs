@@ -1,8 +1,8 @@
-# Purdue AF Conda environments and Jupyter kernels
+# Purdue AF Conda environments / Jupyter kernels
 
 This repository contains recipes used to build Conda environments and Jupyter kernels at Purdue Analysis Facility.
 
-At Purdue AF, there is a job that runs every few hours and builds a Conda environment from each of these recipes at `/work/kernels/` and at `/depot/cms/kernels`.
+There is a job that runs every few hours and builds a Conda environment from each of these recipes at `/work/kernels/` and at `/depot/cms/kernels`.
 
 To add your own environment, please open a pull request.
 
@@ -11,7 +11,7 @@ To add your own environment, please open a pull request.
 
 Each top-level directory corresponds to a conda environment with the same name.
 Inside each directory, there should be an `environment.yml` or `environment.yaml` file
-with a list of Conda and Pip packages to be installed.
+with a list of Conda (and Pip, if needed) packages to be installed.
 
 [How to create environment.yaml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-file-manually)
 
@@ -20,7 +20,7 @@ Additionally, a directory can contain `pip-uninstall.txt` with a list of package
 
 ## Curated environments
 
-Two main environments are maintained by Purdue AF admins:
+Two main environments are maintained by Purdue AF admins. These environments are also by default available in Jupyter notebooks as kernels.
 
 ### 1. `python3` Environment
 - **Purpose**: Default, stable environment meant to serve most Purdue AF use cases. Start with this environment and feel free to open a pull request to add any missing packages.
