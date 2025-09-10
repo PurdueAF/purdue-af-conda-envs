@@ -2,7 +2,7 @@
 
 This repository contains recipes used to build Conda environments at Purdue Analysis Facility.
 
-There is a job that runs every few hours and builds a Conda environment from each of these recipes at `/work/kernels/` and at `/depot/cms/kernels`.
+There is a job that runs every few hours and builds a Conda environment from each of these recipes at `/conda-envs/` and at `/depot/cms/kernels/`.
 
 To add your own environment, please open a pull request.
 
